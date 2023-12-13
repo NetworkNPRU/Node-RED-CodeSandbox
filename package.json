@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "node-red": "3.1",
+    "node-red-contrib-blockly": "1.1.0",
+    "node-red-dashboard": "2.29.1"
+  }
+}
